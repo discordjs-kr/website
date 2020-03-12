@@ -7,7 +7,7 @@
 
     <section id="info">
       <div class="info-item">
-        <h2>대하여</h2>
+        <h2>인사말</h2>
         <p>
           discord.js 는 강력한 <a href="https://nodejs.org/">node.js</a> 모듈로써 <a href="https://discordapp.com/developers/docs/intro">디스코드 API</a>와 쉽게 상호작용하게 해줍니다.
           이 라이브러리는 봇의 코드를 상당히 정돈되고 더 쉽게, 그리고 대부분의 자바스크립트 디스코드 라이브러리들보다 훨씬 더 객체 지향적입니다.
@@ -42,9 +42,9 @@ client.login('토큰');</code></pre>
           <ul>
             <li>객체 지향적</li>
             <li>빠르고 효율적</li>
-            <li>풍푸한 기능</li>
-            <li>유연한</li>
-            <li>100% 프로미스 기반</li>
+            <li>다양한 기능</li>
+            <li>유연함</li>
+            <li>100% Promise 기반</li>
           </ul>
         </p>
       </div>

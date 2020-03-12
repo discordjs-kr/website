@@ -141,6 +141,7 @@ export default {
     },
 
     // Build an array of all doc items with minimal data
+    // eslint-disable-next-line complexity
     buildFuse(toggles) {
       const items = [];
 
