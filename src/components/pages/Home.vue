@@ -59,7 +59,8 @@ client.login('토큰');</code></pre>
 
       <div class="full-info-item">
         <router-link to="/docs" class="big-ass-btn">시작하기</router-link>
-        <a href="https://discord.gg/bRCvFy9" class="big-ass-btn discord">디스코드(영어)</a>
+        <a href="https://discord.gg/bRCvFy9" class="big-ass-btn discord">공식 영문 디스코드</a>
+        <a href="https://discord.gg/TwZeg6z9" class="big-ass-btn discord">비공식 한국어 디스코드</a>
       </div>
     </section>
   </div>

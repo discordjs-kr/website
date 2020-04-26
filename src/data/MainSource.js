@@ -1,13 +1,12 @@
-import semver from 'semver';
 import DocsSource from './DocsSource';
 
-const branchBlacklist = new Set(['docs', 'webpack', 'v8']);
+const branchWhiteList = new Set(['korean', 'english']);
 export default new DocsSource({
   id: 'main',
   name: '메인 라이브러리',
   global: 'Discord',
   repo: 'discordjs-kr/discord.js',
-  defaultTag: 'stable',
-  branchFilter: branch => !branchBlacklist.has(branch) && !branch.startsWith('dependabot/'),
-  tagFilter: tag => semver.gte(tag, '9.0.0'),
+  defaultTag: 'korean',
+  branchFilter: branch => branchWhiteList.has(branch),
+  tagFilter: () => false,
 });
