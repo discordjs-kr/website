@@ -1,6 +1,6 @@
 <template>
   <ul class="stats">
-    <li>{{ downloads }} 다운로드</li>
+    <li>{{ downloads }}번의 다운로드</li>
     <li>{{ stars }}개의 스타</li>
     <li>{{ contributors }}명의 기여자</li>
   </ul>
