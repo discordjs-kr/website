@@ -4,8 +4,9 @@
       <router-link to="/">discord.js</router-link>
 
       <nav>
-        <router-link to="/docs">문서</router-link><!--
-        --><a :href="`https://github.com/discordjs/discord.js`">깃허브</a>
+        <router-link to="/docs">문서</router-link>
+        <a :href="`https://github.com/discordjs/discord.js`">깃허브</a>
+        <a :href="`https://discordjs.guide/`">영문 가이드</a>
       </nav>
     </container>
   </header>
