@@ -12,8 +12,8 @@
 
     <div id="site-meta">
       <div id="site-meta-label">&pi;</div>
-      commit: {{ hash }}<br />
-      built at: {{ builtAt.toUTCString() }}
+      커밋: {{ hash }}<br />
+      {{ builtAt.toUTCString() }}에 작성된 문서
     </div>
   </footer>
 </template>
