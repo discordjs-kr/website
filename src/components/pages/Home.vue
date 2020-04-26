@@ -37,7 +37,7 @@ client.login('토큰');</code></pre>
       </div>
 
       <div class="info-item">
-        <h2>왜 써야하나요?</h2>
+        <h2>왜 써야하죠?</h2>
         <p>
           <ul>
             <li>객체 지향적</li>
